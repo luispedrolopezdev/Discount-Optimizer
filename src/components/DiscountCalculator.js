@@ -92,9 +92,6 @@ const DiscountCalculator = () => {
         setErrorMessage('');
     };
 
-    // Verifica si el campo limit está vacío
-    const isLimitEmpty = limit.trim() === '';
-
     // Verifica si el campo spending está vacío
     const isSpendingEmpty = spending.trim() === '';
 
